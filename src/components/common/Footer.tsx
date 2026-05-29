@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="w-full border-t border-white/5 bg-background mt-auto">
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-muted text-sm text-center md:text-left">
-          <p>© 2026 Smart Portfolio. All rights reserved.</p>
+          <p>© 2026 Smart Portfolio. 모든 권리 보유.</p>
         </div>
         <div className="flex items-center gap-4 text-muted">
           <Link href="#" className="hover:text-primary transition-colors">

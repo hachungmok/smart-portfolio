@@ -78,7 +78,7 @@ export default function ChatbotWidget() {
           <div className="flex items-center justify-between px-4 py-4 bg-white/5 border-b border-white/5">
             <div className="flex items-center gap-2">
               <Bot className="w-5 h-5 text-primary" />
-              <h3 className="font-heading font-bold text-text">AI Assistant</h3>
+              <h3 className="font-heading font-bold text-text">AI 어시스턴트</h3>
             </div>
             <button onClick={() => setIsOpen(false)} className="text-muted hover:text-text transition-colors">
               <X className="w-5 h-5" />
@@ -104,7 +104,7 @@ export default function ChatbotWidget() {
                 </div>
                 <div className="px-4 py-2 rounded-2xl bg-white/5 border border-white/5 rounded-tl-none flex items-center gap-2">
                   <Loader2 className="w-4 h-4 animate-spin text-muted" />
-                  <span className="text-sm text-muted">Thinking...</span>
+                  <span className="text-sm text-muted">생각 중...</span>
                 </div>
               </div>
             )}
@@ -118,7 +118,7 @@ export default function ChatbotWidget() {
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask me anything about the portfolio..."
+                placeholder="포트폴리오에 대해 무엇이든 물어보세요..."
                 className="flex-1 bg-surface border border-white/10 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-primary transition-colors text-text"
               />
               <button 

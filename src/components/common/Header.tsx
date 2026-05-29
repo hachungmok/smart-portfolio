@@ -8,10 +8,10 @@ export default function Header() {
           Smart Portfolio
         </Link>
         <nav className="flex items-center gap-6 text-sm font-medium">
-          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-          <Link href="/project" className="hover:text-primary transition-colors">Project</Link>
-          <Link href="/resume" className="hover:text-primary transition-colors">Resume</Link>
-          <Link href="/admin" className="hover:text-primary transition-colors">Admin</Link>
+          <Link href="/" className="hover:text-primary transition-colors">홈</Link>
+          <Link href="/project" className="hover:text-primary transition-colors">프로젝트</Link>
+          <Link href="/resume" className="hover:text-primary transition-colors">이력서</Link>
+          <Link href="/admin" className="hover:text-primary transition-colors">관리자</Link>
         </nav>
       </div>
     </header>
